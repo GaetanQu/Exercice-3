@@ -37,7 +37,7 @@ html
             const sla = parseFloat(document.getElementById('sla').value);
             const period = document.getElementById('period').value;
 
-            const response = await fetch('/.netlify/functions/calculate-sla', {
+            const response = await fetch('/.netlify/functions/definsla', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
