@@ -1,0 +1,18 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire SLA</title>
+</head>
+<body>
+    <form action="netlify/functions/definesla.js" method="post">
+        <input type="number" name="sla">
+        <select name="period">
+            <option value="yearly">Annuel</option>
+            <option value="quarterly">Trimestriel</option>
+            <option value="monthly">Mensuel</option>
+            <option value="daily">Quotidien</option>
+        </select>
+    </form>
+</body>
+</html>
