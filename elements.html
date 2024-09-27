@@ -355,6 +355,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 							</div>
 						</section>
+						<section>
+							<form action="netlify/functions/definesla.js" method="post">
+								<input type="number" name="sla">
+								<select name="period">
+									<option value="yearly">Annuel</option>
+									<option value="quarterly">Trimestriel</option>
+									<option value="monthly">Mensuel</option>
+									<option value="daily">Quotidien</option>
+								</select>
+							</form>
+						</section>
 					</article>
 
 				<!-- Footer -->
